@@ -11,3 +11,6 @@ The `transactions.csv` file is a synthetic dataset generated using a Python scri
 
 ### Notebook
 - `notebooks/bronze_ingestion.ipynb`
+
+### Architecture Diagram
+Raw CSV → Bronze → Silver → Gold → Dashboard
