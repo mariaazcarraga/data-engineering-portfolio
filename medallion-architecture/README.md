@@ -58,4 +58,4 @@ This includes:
 ---
 
 ### Architecture Diagram
-Raw CSV → Bronze → Silver → Gold → Dashboard
+Raw Data → Bronze → Silver → Gold → Dashboard
