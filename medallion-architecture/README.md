@@ -32,12 +32,13 @@ The `transactions.csv` file is a synthetic dataset generated using a Python scri
 
 The silver layer will clean, validate, stardize, and hash sensitive fields from the Bronze dataset.
 
-This includes:
-- Converting data types
-- Removing duplicates
-- Normalizing text fields
-- Hashing identifiers for privacy
-- Adding derived fields (year, month, flags)
+### Steps performed
+- Converted transaction_date to proper date type
+- Removed duplicates
+- Normalized text fields
+- Hashed customer_id and transaction_id
+- Added derived fields (year, month, day)
+- Wrote Silver Delta table
 
 ## Gold Layer
 
