@@ -10,6 +10,7 @@
 ### Completed
 - Created GitHub repo and folder structure
 - Added raw dataset (transactions.csv)
+- Added synthetic data generator (transaction.py)
 - Created Unity Catalog Volume (bronze_volume)
 - Built Bronze ingestion notebook (PySpark → Delta Lake)
 - Exported notebook to GitHub
